@@ -1,1 +1,42 @@
-/* Acá va tu código */
+body {
+    background:url(css/imagenn.jpg);
+    background-attachment: fixed;
+}
+.h1 {
+    position: absolute;
+    width: 647px;
+    height: 127px;
+    left: 35px;
+    top: 44px;
+    font-size: 35px;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+}
+
+.primero {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 450px;
+    top: 100px;
+    font-family: 'Satisfy', cursive;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    text-indent: 10px;
+}
+.segundo {
+    position: absolute;
+    width: 700px;
+    height: 1000px;
+    left: 300px;
+    right: 300px;
+    top: 325px;
+    font-family: 'Special Elite', cursive;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.botones {
+    color: black;
+}

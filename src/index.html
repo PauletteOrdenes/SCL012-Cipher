@@ -1,13 +1,50 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
+    <h1 class="h1">Mensaje Secreto</h1>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+  
   </head>
+
   <body>
     <div id="root">
-      <h1>Hola mundo!</h1>
+      <header style="margin-top: 120px; margin-left: 75px;">
+          <img src="css/138-1387208_love-heart-pad-secret-ed-comments-secret-icon.png" width="90" height="100" alt="logotipo de Mensaje Secreto">
+      </header>
+
+      <div align='center'>
+        <div class="primero">
+      <p> ¿Alguna vez has querido enviar un mensaje secreto a alguien? Quizás para darle más misterio o simplemente para que nadie más lo pueda entender. Bueno, Mensaje Secreto es para ti.</p>
+      </section>
+      <p>¡Adelante, atrévete a probarlo!</p>
+        </div>
+
+      <br>
+      <section class="segundo">
+        <header align='center'> ¿Cómo funciona? </header> 
+        <p> Es simple, solo debes escribir tu texto en la barra de abajo, escoger un numero de código del 1 al 5, el cual solo tú y la persona a la que se lo enviarás sabrán, y escoger la opción de CODIFICAR o DECODIFICAR según tu necesidad. </p>
+        <p>Escoge un número de código: </p>
+        <input type="number" name="número de código" id='offset' min="1" max="5">
+        <p> Ingresa tu texto aquí...</p>
+        <br>
+        <textarea name="textarea" id='ingresarTxt' rows="10" cols="50"></textarea>
+        <br>
+
+        <div class="botones">
+        <input id='btnCod' type='button' value='Codificar'></input>
+        <input id='btnDec' type='button' value='Decodificar'></input>
+        </div>
+        
+        <br>
+        <p> Aquí está tu resultado...</p>
+        <textarea name="textarea" id='textoSalida' rows="10" cols="50"></textarea>
+      </section>
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
